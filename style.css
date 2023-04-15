@@ -32,7 +32,7 @@ body {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: #333;
+    background: linear-gradient(180deg, #095D09 0%, #00FF00 100%);
     color: #fff;
     border-radius: 50%;
     font-size: 25px;

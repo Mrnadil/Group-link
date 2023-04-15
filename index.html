@@ -57,6 +57,10 @@
 
 <body class="background-color-animation">
 
+    <div class="floating-share-icon">
+        <a href="#" class="share-link"><i class="fas fa-share-alt"></i></a>
+    </div>
+
     <div class="cards-container ">
 
         <div class=" card card-two">
@@ -123,6 +127,18 @@
     </script>
 
     <script src="https://kit.fontawesome.com/ea3d3791f8.js" crossorigin="anonymous"></script>
+
+    <script>
+        const shareBtn = document.querySelector('.share-link');
+
+        shareBtn.addEventListener('click', () => {
+            navigator.share({
+                title: document.title,
+                text: 'Check out this link!',
+                url: window.location.href
+            });
+        });
+    </script>
 </body>
 
 </html>

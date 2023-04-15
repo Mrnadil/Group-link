@@ -18,6 +18,36 @@ body {
     clear: both;
 }
 
+/* Floating Share Icon */
+.floating-share-icon {
+    position: fixed;
+    z-index: 9999;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .share-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .share-link:hover {
+    background-color: #444;
+  }
+  
+  .fa-share-alt {
+    margin-top: 18px;
+  }
+  
+
 /*** CARD STLES ***/
 .cards-container {
     width: 80%;
